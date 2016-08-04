@@ -11,6 +11,9 @@
 
 本项目属于openthos项目的一部分，提供 [Openthos](https://github.com/openthos/openthos/wiki) 对原Settings的功能扩展与样式改变。
 
+##　当前开发人员 (20160801-20160831)
+李冰 王利峰 曹永韧
+
 ## 功能需求
 
 |完成|描述|模块|完成度|
