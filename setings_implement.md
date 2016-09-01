@@ -122,7 +122,7 @@
 
 ## 如何往settings中追加新的一个项目（类似于运行模式）
 
-请查看：[文档](https://github.com/openthossetting-analysis/edit/master/BUILDING.md)
+请查看：[文档](https://github.com/openthos/setting-analysis/edit/master/如何在Settings实现一个运行模式功能的布局V0.3.docx)
 
 ## 如何在在Settings中顺利定位要操作的代码位置，以及代码分析经验
 
