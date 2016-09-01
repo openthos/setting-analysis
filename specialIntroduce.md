@@ -19,19 +19,24 @@
 　　　　　　　　　　　　　　　　http://blog.csdn.net/xfks55/article/details/6528269
 　　　　　　　　　　　　　　　　http://www.cnblogs.com/feike/archive/2013/01/06/2847026.html
 - 主界面的布局文件放在res/xml中，名dashboard_categories.xml，通过接点击某一项调起特定的Fragment
-     类似于：　　<dashboard-tile
+     类似于：
+``` 
+<dashboard-tile
                 android:id="@+id/wifi_settings"
                 android:title="@string/wifi_settings_title"
                 android:fragment="com.android.settings.wifi.WifiSettings"
                 android:icon="@drawable/ic_settings_wireless"
                 />
-
+``` 
 - 针对与不同功能布局：
-　类似：　　　　 <PreferenceScreen
+　类似：　
+``` 
+<PreferenceScreen
                 android:key="wallpaper"
                 android:title="@string/wallpaper_settings_title"
                 settings:keywords="@string/keywords_display_wallpaper"
                 android:fragment="com.android.settings.WallpaperTypeSettings" />
+``` 
 
 　可以通过key值找到到该应用，通过findPreference(key)　的方式，上述例子可以通过点击直接启动相应的fragment，Activity可以做同样处理
 　对于其他的控件，自己可以学习一下，不详细列出了
