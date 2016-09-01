@@ -106,3 +106,24 @@
     * Settings中增加防火墙模块（FireWall）,实现了界面展示；ettings中代理模块界面（proxy）进行优化；
   * 王之旭
     * 实现CloudService界面；完善FireWall界面；实现SystemReset模块；完善RunMode功能／FireWall界面；
+
+
+# 设计实现
+
+我将涉及到的整体流程及技术点分别叙述。
+
+## 如何在系统上添加一个新的应用以及注意点（类似与追加打印机、文件管理器及桌面应用等）
+
+请查看：[InstallApp.md](https://github.com/openthos/setting-analysis/edit/master/InstallApp.md)
+
+## Settings相关代码位置以及语法格式特点
+
+请查看：[specialIntroduce.md](https://github.com/openthos/setting-analysis/edit/master/specialIntroduce.md)
+
+## 如何往settings中追加新的一个项目（类似于运行模式）
+
+请查看：[文档](https://github.com/openthossetting-analysis/edit/master/BUILDING.md)
+
+## 如何在在Settings中顺利定位要操作的代码位置，以及代码分析经验
+
+请查看：[experience.md](https://github.com/openthos/setting-analysis/edit/master/experience.md)
