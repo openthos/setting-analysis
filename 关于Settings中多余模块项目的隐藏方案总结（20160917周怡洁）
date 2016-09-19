@@ -1,0 +1,56 @@
+功能实现优先级：由简到繁（文件中所描述的去掉，我们只是实现功能或界面的隐藏，后期需要仍可已恢复）
+一（１，２）
+二，（６，９）　三（１）
+二（４，７，８）
+二（３）三（２，３，５，６）
+二（５【参考五】）三（４）
+二（１，２）四（１）
+
+
+一.改名：
+1.wireless&network   更名为network(value中Strings)
+2. System  About This Device
+（更名为About  去掉原来的，自己实现，增加一个法律授权）
+
+二.去掉
+1.wifi 
+右上角（Add netWork/Refresh /Advanced）去掉
+advanced 去掉
+(advance内容在wifi的AdvancedWIFISettings里)
+2，Bluetooth（类似wifi，都去掉/refresh 自动）
+3.Personal  Security选项去掉，除unknown source 挪到开发者选项
+4.Personal backup&reset整体去掉
+5.Device（将里边的项目分别挪到不同地方）
+6.Device  一。Display   
+          1.Sleep去掉，在自己的电源管理条目中自己实现
+          2.when device is rotated 去掉
+          3.cast screen 去掉
+          二。Sound & notification
+          1.Ring volume 调节（干掉)
+          2.also vibrate for calls 功能（干掉）
+          3.Interruptions功能集合（干掉）
+          4.phone ringtone  手机铃声（干掉）
+          5.when device is locked （干掉）
+7.Storage  整个条目去掉
+8.User 去掉
+9.System Accessibility 仅将power button ends call（干掉）
+
+
+三.挪动合并
+1.More
+  保留，将里面除VPN和ALRPLANE之外的隐藏
+2.Personal  Security选项去掉，除unknown source 挪到开发者选项
+3.Device  jabol -->Disable Tieto Multiwindow  （移到开发者选项中）
+4.APPS 功能保留 挪到系统条目中去
+5.APPs compatibility 挪到开发者选项中去
+6.SuperUser（移到开发者里边）
+
+四.改动功能
+1.wifi   将add network 改成一级选项（或和开关并列的button项），refresh变成自动刷新（类似10s一刷新）
+
+五.按照原设计方案，将settings分为五大模块。
+包括：常用设置（favorite），【放置同下面相同的入口即可】
+网络（network）：wifi，bluetooth，ethernet，vpn，代理
+程序（progress）：notification	，app（程序管理），开机自启（自己实现），运行模式（针对app，开关切换模式）
+系统（system）：包括原来Settings存在的，和新追加的
+安全（security）：账户管理，防火墙，原Settings的accounts
