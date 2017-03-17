@@ -10,7 +10,6 @@
 # 项目简介
 
 本项目属于openthos项目的一部分，提供 [Openthos](https://github.com/openthos/openthos/wiki) 对原Settings的功能扩展与样式改变。
-11月的工作是完善功能和fix bug.
 
 ##　当前开发人员 (20170316-20170415)
 刘晓旭 曾非非 周怡洁
