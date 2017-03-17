@@ -132,7 +132,7 @@
   * 王之旭
     * 实现CloudService界面；完善FireWall界面；实现SystemReset模块；完善RunMode功能／FireWall界面；
 
-- 2016/07/28-2017/03/16
+- 2016/07/29-2017/03/16
   * Settings功能需完善模块：
     * 无线和网络：蓝牙、VPN
     * 设备：
