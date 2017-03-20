@@ -3,18 +3,28 @@
  - Settings主结构的根目录：  
  
    - 资源文件：packages/apps/Settings/res/
-   - java代码：packages/apps/Settings/src/com/android/settings/
+   - java代码：packages/apps/Settings/src/
    
 ## Wirless & networds
 
  - Wi-Fi
  
+   - com/android/settings/wifi/WifiSettings.java
  - Bluetooth
+ 
+   - com/android/settings/bluetooth/BluetoothSettings.java
  - Ethernet
+ 
+   - com/android/settings/ethernet/EthernetSettings.java
  - proxy
+ 
+   - com/android/settings/proxy/ProxySettings.java
  - Aeroplaane mode
+ 
+   - com/android/settings/AirplaneModeEnabler.java
  - VPN
 
+   - com/android/settings/vpn2/VpnSettins.java
 ## Device
 
  - Display
