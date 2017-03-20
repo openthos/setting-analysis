@@ -45,14 +45,22 @@
    - com/android/settings/AutoStartSettings.java
  - Run Mode
  
-   - RunModeSettings.java
+   - com/android/settings/RunModeSettings.java
 
 ## Personal
 
  - Location
+ 
+   - com/android/settings/location/LocationSettings.java
  - Security
+ 
+   - com/android/settings/SecuritySettings.java
  - Accounts
+ 
+   - com/android/settings/accounts/AccountSettings.java
  - Account manager
+ 
+   - com/android/settings/AccountManagerSettings.java
  - Language & input
  - FireWall
 
