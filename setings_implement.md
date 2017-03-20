@@ -162,7 +162,7 @@
 
 请查看：[InstallApp.md](https://github.com/openthos/setting-analysis/edit/master/InstallApp.md)
 
-## Settings相关代码位置以及语法格式特点
+## Settings整体代码结构以及语法格式特点
 
 请查看：[specialIntroduce.md](https://github.com/openthos/setting-analysis/edit/master/specialIntroduce.md)
 
