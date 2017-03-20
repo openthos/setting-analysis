@@ -168,7 +168,7 @@
 
 ## Settings各个模块的代码结构
 
-请查看：[setting_modules.md]()   
+请查看：[setting_modules.md](https://github.com/openthos/setting-analysis/blob/master/setting_modules.md)   
 
 ## 如何往settings中追加新的一个项目（类似于运行模式）
 
