@@ -62,15 +62,33 @@
  
    - com/android/settings/AccountManagerSettings.java
  - Language & input
+ 
+   - com/android/settings/inputmethod/InputMethodAndLanguageSettings.java
  - FireWall
+ 
+   - com/android/settings/FireWallSettings.java
 
 ## System
 
  - Date & time 
+ 
+   - com/android/settings/DataTimeSettings.java
  - Accessibility
+ 
+   - com/android/settings/accessibility/AccessibilitySettings.java
  - Printing
+ 
+   - com/android/settings/print/PrintSettingsFragment.java
  - Developer options
+ 
+   - com/android/settings/DevelopmentSettings.java
  - About tablet
+ 
+   - com/android/settings/DeviceInfoSettings.java
  - Cloud Service
+ 
+   - com/android/settings/CloudServiceFragment.java
  - Hot Key
+ 
+   - com/android/settings/HotKeySettings.java
  
