@@ -28,11 +28,24 @@
 ## Device
 
  - Display
- -  Sound & notification
+ 
+   - com/android/settings/DisplaySettings.java
+ - Sound & notification
+ 
+   - com/android/settings/VoiceInputOutputSettings.java
+   - com/android/settings/notification/NotificationSettings.java
  - PowerManager
+ 
+   - com/android/settings/PowerManagerSettings.java
  - Apps
+ 
+   - com/android/settings/ApplicationSettings.java
  - AutoStart
+ 
+   - com/android/settings/AutoStartSettings.java
  - Run Mode
+ 
+   - RunModeSettings.java
 
 ## Personal
 
