@@ -166,6 +166,10 @@
 
 请查看：[specialIntroduce.md](https://github.com/openthos/setting-analysis/edit/master/specialIntroduce.md)
 
+## Settings各个模块的代码结构
+
+请查看：[setting_modules.md]()   
+
 ## 如何往settings中追加新的一个项目（类似于运行模式）
 
 请查看：[文档](https://github.com/openthos/setting-analysis/edit/master/如何在Settings实现一个运行模式功能的布局V0.3.docx)
