@@ -1,10 +1,10 @@
-# Settings相关代码位置以及语法格式特点
+# Settings整体代码结构以及语法格式特点
 内容：
 
 - Settings相关代码位置
 - 语法格式特点
 
-## １.Settings相关代码位置
+## １.Settings整体代码结构位置
 - 针对与Settings的相关定制工作，首先明确Settings代码的存放位置，及目录结构
 - 根目录／packages/app 下，有多款应用，其中Settings即我们要操作的设置应用
 - 整体目录结构：Android.mk  AndroidManifest.xml  CleanSpec.mk  MODULE_LICENSE_APACHE2  NOTICE  proguard.flags  res  src  tests
