@@ -177,7 +177,7 @@
 
 ## 如何在settings中隐藏已经存在的某些项目
 
-请查看：[setting_hide_menu.md]()
+请查看：[setting_hide_menu.md](https://github.com/openthos/setting-analysis/blob/master/setting_hide_menu.md)
 
 ## 如何在在Settings中顺利定位要操作的代码位置，以及代码分析经验
 
