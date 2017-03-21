@@ -174,6 +174,11 @@
 
 请查看：[文档](https://github.com/openthos/setting-analysis/edit/master/如何在Settings实现一个运行模式功能的布局V0.3.docx)
 
+
+## 如何在settings中隐藏已经存在的某些项目
+
+请查看：[setting_hide_menu.md]()
+
 ## 如何在在Settings中顺利定位要操作的代码位置，以及代码分析经验
 
 请查看：[experience.md](https://github.com/openthos/setting-analysis/edit/master/experience.md)
